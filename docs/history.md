@@ -133,7 +133,7 @@ Either variable can also be set to -1, this will yield unlimited entries:
   	export HISTSIZE=-1
     export HISTFILESIZE=-1
 
-## For more information about the history library, access the GNU Histroy Library manual using command:
+### For more information about the history library, access the GNU Histroy Library manual using command:
 
 	$ man history
 
