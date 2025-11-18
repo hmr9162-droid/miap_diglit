@@ -58,7 +58,7 @@ The `-s` flag will store the arguments within the history list as a single entry
 
 ### `!`
 
-An exclamation point may also be used to interact with the history list. Run any commnand from the list by combining an exclamation point with the line number or a text string. Add a `:p` argument to return a command using an exclamation point without executing it.
+An exclamation point may also be used to interact with the history list. Run any command from the list by combining an exclamation point with the line number or a text string. Add a `:p` argument to return a command using an exclamation point without executing it.
 
 	$ ![string]:p
 
@@ -96,8 +96,10 @@ The list corresponds to a hidden file in the home directory that can be opened w
 
 ### Using Date and Timestamps
 
-The bash shell stores a `.bashrc` file containing format settings for the output of the history command. To modify these settings, open a text editor, such as Nano using the command:
+The bash shell stores a `.bashrc` file containing format settings for the output of the history command. To modify these settings, open the file with a text editor, such as Nano, using the command:
 
+	$ sudo nano .bashrc
+	
 Change the output format to include date and timestamps by adding the following variable to the `.bashrc` file with the desired arguments:
 
 	%d. Day.
